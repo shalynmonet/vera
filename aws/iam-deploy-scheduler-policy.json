@@ -1,0 +1,30 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "SchedulerManage",
+      "Effect": "Allow",
+      "Action": [
+        "scheduler:CreateSchedule",
+        "scheduler:GetSchedule",
+        "scheduler:UpdateSchedule",
+        "scheduler:DeleteSchedule",
+        "scheduler:ListSchedules",
+        "scheduler:TagResource"
+      ],
+      "Resource": "arn:aws:scheduler:*:*:schedule/default/vera-*"
+    },
+    {
+      "Sid": "IamForSchedulerExecutionRoleOnly",
+      "Effect": "Allow",
+      "Action": [
+        "iam:CreateRole",
+        "iam:GetRole",
+        "iam:PassRole",
+        "iam:PutRolePolicy",
+        "iam:TagRole"
+      ],
+      "Resource": "arn:aws:iam::*:role/vera-scheduler-execution-role"
+    }
+  ]
+}

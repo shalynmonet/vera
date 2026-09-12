@@ -1,0 +1,119 @@
+[
+  {
+    "id": "resident_1",
+    "name": "Dorothy Mitchell",
+    "phone": "+15555550101",
+    "living_situation": "Independent at home",
+    "family_contact": {
+      "name": "Karen Mitchell",
+      "email": "karen.mitchell@family.mail"
+    },
+    "caregiver_contact": {
+      "name": "Joyce Lin",
+      "email": "j.lin@homecare.example",
+      "relationship": "Home health aide"
+    },
+    "emergency_criteria": "PLACEHOLDER - replace with real caregiver-specific guidance. Escalate immediately for any mention of a fall, chest pain, difficulty breathing, severe confusion, or a significant change from her usual baseline mood or behavior.",
+    "notes": "Retired schoolteacher. Loves crossword puzzles and her garden tomatoes. Two grandchildren, Mia and Owen, call on weekends. A little hard of hearing on the phone, so speak clearly.",
+    "call_schedules": [
+      {
+        "call_type": "Social Check-In",
+        "frequency": "Weekly",
+        "preferred_time": "10:00"
+      },
+      {
+        "call_type": "Activity",
+        "frequency": "Daily",
+        "activity_description": "10 minute walk around the yard",
+        "preferred_time": "09:30"
+      }
+    ],
+    "weekly_activity_schedule": {
+      "monday": { "activity_description": "10 minute walk around the yard", "duration_minutes": 10, "is_rest_day": false },
+      "tuesday": { "activity_description": "Seated stretching routine", "duration_minutes": 10, "is_rest_day": false },
+      "wednesday": { "activity_description": "10 minute walk around the yard", "duration_minutes": 10, "is_rest_day": false },
+      "thursday": { "activity_description": "Seated stretching routine", "duration_minutes": 10, "is_rest_day": false },
+      "friday": { "activity_description": "10 minute walk around the yard", "duration_minutes": 10, "is_rest_day": false },
+      "saturday": { "activity_description": null, "duration_minutes": null, "is_rest_day": true },
+      "sunday": { "activity_description": null, "duration_minutes": null, "is_rest_day": true }
+    }
+  },
+  {
+    "id": "resident_2",
+    "name": "Walter Kim",
+    "phone": "+15555550102",
+    "living_situation": "Nursing home",
+    "family_contact": {
+      "name": "Susan Kim",
+      "phone": "(206) 555-0144"
+    },
+    "caregiver_contact": {
+      "name": "Marcus Deleon",
+      "email": "m.deleon@rosesprings.example",
+      "relationship": "Facility nurse"
+    },
+    "emergency_criteria": "PLACEHOLDER - replace with real caregiver-specific guidance. Escalate immediately for any mention of a fall, chest pain, difficulty breathing, severe confusion, or a significant change from his usual baseline mood or behavior.",
+    "notes": "Former shipyard electrician. Enjoys talking about boats and old jazz records. Recently mentioned missing his late wife's cooking around dinnertime.",
+    "call_schedules": [
+      {
+        "call_type": "Social Check-In",
+        "frequency": "Weekly",
+        "preferred_time": "11:00"
+      },
+      {
+        "call_type": "Activity",
+        "frequency": "Daily",
+        "activity_description": "Seated arm and shoulder circles",
+        "preferred_time": "10:00"
+      }
+    ],
+    "weekly_activity_schedule": {
+      "monday": { "activity_description": "Seated arm and shoulder circles", "duration_minutes": 8, "is_rest_day": false },
+      "tuesday": { "activity_description": "Seated arm and shoulder circles", "duration_minutes": 8, "is_rest_day": false },
+      "wednesday": { "activity_description": "Short hallway walk with aide", "duration_minutes": 15, "is_rest_day": false },
+      "thursday": { "activity_description": "Seated arm and shoulder circles", "duration_minutes": 8, "is_rest_day": false },
+      "friday": { "activity_description": "Short hallway walk with aide", "duration_minutes": 15, "is_rest_day": false },
+      "saturday": { "activity_description": "Seated arm and shoulder circles", "duration_minutes": 8, "is_rest_day": false },
+      "sunday": { "activity_description": null, "duration_minutes": null, "is_rest_day": true }
+    }
+  },
+  {
+    "id": "resident_3",
+    "name": "Irene Alvarez",
+    "phone": "+15555550103",
+    "living_situation": "Independent at home",
+    "family_contact": {
+      "name": "Diego Alvarez",
+      "email": "diego.alvarez@family.mail"
+    },
+    "caregiver_contact": {
+      "name": "Priya Shah",
+      "phone": "(415) 555-0177",
+      "relationship": "Home health aide"
+    },
+    "emergency_criteria": "PLACEHOLDER - replace with real caregiver-specific guidance. Escalate immediately for any mention of a fall, chest pain, difficulty breathing, severe confusion, or a significant change from her usual baseline mood or behavior.",
+    "notes": "Bakes on Sundays and loves telling stories about her years running a flower shop. Uses a cane; ask gently about balance and any recent trips or falls.",
+    "call_schedules": [
+      {
+        "call_type": "Social Check-In",
+        "frequency": "Weekly",
+        "preferred_time": "14:00"
+      },
+      {
+        "call_type": "Activity",
+        "frequency": "Daily",
+        "activity_description": "Gentle balance exercises near the counter",
+        "preferred_time": "13:30"
+      }
+    ],
+    "weekly_activity_schedule": {
+      "monday": { "activity_description": "Gentle balance exercises near the counter", "duration_minutes": 10, "is_rest_day": false },
+      "tuesday": { "activity_description": "Gentle balance exercises near the counter", "duration_minutes": 10, "is_rest_day": false },
+      "wednesday": { "activity_description": null, "duration_minutes": null, "is_rest_day": true },
+      "thursday": { "activity_description": "Gentle balance exercises near the counter", "duration_minutes": 10, "is_rest_day": false },
+      "friday": { "activity_description": "Gentle balance exercises near the counter", "duration_minutes": 10, "is_rest_day": false },
+      "saturday": { "activity_description": "Gentle balance exercises near the counter", "duration_minutes": 10, "is_rest_day": false },
+      "sunday": { "activity_description": null, "duration_minutes": null, "is_rest_day": true }
+    }
+  }
+]
